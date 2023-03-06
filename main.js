@@ -61,3 +61,6 @@ thirdHeader.replaceWith(cloneThird);
 log(cloneThird);
 listThree.before(listFive);
 sixthHeader.after(listThree);
+
+const ads = document.querySelector('.ads');
+ads.remove();
